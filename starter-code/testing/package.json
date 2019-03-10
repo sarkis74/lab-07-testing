@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node main.js",
     "test": "jest --coverage --verbose"
   },
   "keywords": [],
@@ -14,5 +14,8 @@
     "express": "^4.16.4",
     "jest": "^23.6.0",
     "supertest": "^3.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
   }
 }
